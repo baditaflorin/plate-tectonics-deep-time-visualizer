@@ -291,7 +291,7 @@ export function DeepTimeGlobe({
 
       renderer.setPixelRatio?.(Math.min(window.devicePixelRatio, 2));
       renderer.setSize(container.clientWidth, container.clientHeight, false);
-      container.appendChild(renderer.domElement);
+      container.appendChild(canvas);
 
       camera.position.set(0, 0.55, 6.15);
       scene.add(new three.AmbientLight('#9cc8ff', 1.3));
