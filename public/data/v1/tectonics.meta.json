@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "tectonics.v1",
+  "generatedAt": "2026-05-08T00:00:00.000Z",
+  "source": "Hand-curated public-domain educational reconstruction scaffold",
+  "sourceCommit": "bootstrap",
+  "inputChecksums": {
+    "model": "sha256-bootstrap-static-v1"
+  },
+  "notes": "Approximate educational geometry for v1. It is designed for interactive storytelling, not survey-grade plate reconstruction."
+}

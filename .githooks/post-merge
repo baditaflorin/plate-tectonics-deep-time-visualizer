@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+npm install
+node scripts/write-build-info.mjs
+node scripts/build-wasm.mjs

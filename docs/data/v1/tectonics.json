@@ -1,0 +1,457 @@
+{
+  "schemaVersion": "tectonics.v1",
+  "timespanMa": {
+    "min": 0,
+    "max": 600
+  },
+  "plates": [
+    {
+      "id": "north-america",
+      "name": "North America",
+      "color": "#72d6d2",
+      "presentCentroid": [-102, 49],
+      "trajectory": [
+        { "ageMa": 0, "lonOffset": 0, "latOffset": 0, "rotationDeg": 0 },
+        { "ageMa": 66, "lonOffset": 12, "latOffset": 1, "rotationDeg": 6 },
+        { "ageMa": 150, "lonOffset": 35, "latOffset": -5, "rotationDeg": 18 },
+        { "ageMa": 260, "lonOffset": 70, "latOffset": -24, "rotationDeg": 34 },
+        { "ageMa": 420, "lonOffset": 92, "latOffset": -31, "rotationDeg": 48 },
+        { "ageMa": 600, "lonOffset": 118, "latOffset": -38, "rotationDeg": 62 }
+      ],
+      "polygons": [
+        {
+          "name": "North American craton",
+          "points": [
+            [-168, 72],
+            [-140, 61],
+            [-124, 48],
+            [-124, 32],
+            [-107, 24],
+            [-83, 25],
+            [-61, 44],
+            [-51, 57],
+            [-75, 72],
+            [-110, 74]
+          ]
+        }
+      ],
+      "mountainBelts": [
+        {
+          "name": "Appalachian uplift",
+          "startMa": 470,
+          "endMa": 260,
+          "points": [
+            [-84, 34],
+            [-78, 38],
+            [-72, 44],
+            [-67, 49]
+          ],
+          "intensity": 0.8
+        },
+        {
+          "name": "Cordilleran uplift",
+          "startMa": 160,
+          "endMa": 20,
+          "points": [
+            [-124, 32],
+            [-119, 40],
+            [-112, 48],
+            [-105, 56]
+          ],
+          "intensity": 0.9
+        }
+      ]
+    },
+    {
+      "id": "south-america",
+      "name": "South America",
+      "color": "#a4d65e",
+      "presentCentroid": [-61, -17],
+      "trajectory": [
+        { "ageMa": 0, "lonOffset": 0, "latOffset": 0, "rotationDeg": 0 },
+        { "ageMa": 66, "lonOffset": 9, "latOffset": -2, "rotationDeg": -6 },
+        { "ageMa": 150, "lonOffset": 30, "latOffset": 1, "rotationDeg": -18 },
+        { "ageMa": 260, "lonOffset": 40, "latOffset": -5, "rotationDeg": -36 },
+        { "ageMa": 420, "lonOffset": 54, "latOffset": -12, "rotationDeg": -42 },
+        { "ageMa": 600, "lonOffset": 72, "latOffset": -20, "rotationDeg": -50 }
+      ],
+      "polygons": [
+        {
+          "name": "South American continent",
+          "points": [
+            [-81, 12],
+            [-65, 8],
+            [-46, -5],
+            [-35, -23],
+            [-54, -55],
+            [-70, -50],
+            [-79, -24]
+          ]
+        }
+      ],
+      "mountainBelts": [
+        {
+          "name": "Andean uplift",
+          "startMa": 140,
+          "endMa": 0,
+          "points": [
+            [-77, 7],
+            [-76, -8],
+            [-72, -22],
+            [-69, -34],
+            [-71, -48]
+          ],
+          "intensity": 1
+        }
+      ]
+    },
+    {
+      "id": "africa",
+      "name": "Africa",
+      "color": "#f3c567",
+      "presentCentroid": [20, 1],
+      "trajectory": [
+        { "ageMa": 0, "lonOffset": 0, "latOffset": 0, "rotationDeg": 0 },
+        { "ageMa": 66, "lonOffset": -2, "latOffset": 1, "rotationDeg": 3 },
+        { "ageMa": 150, "lonOffset": -5, "latOffset": -4, "rotationDeg": 8 },
+        { "ageMa": 260, "lonOffset": -16, "latOffset": -3, "rotationDeg": 12 },
+        { "ageMa": 420, "lonOffset": -23, "latOffset": -9, "rotationDeg": 16 },
+        { "ageMa": 600, "lonOffset": -35, "latOffset": -17, "rotationDeg": 25 }
+      ],
+      "polygons": [
+        {
+          "name": "African plate",
+          "points": [
+            [-17, 36],
+            [10, 37],
+            [32, 30],
+            [51, 12],
+            [43, -34],
+            [20, -35],
+            [0, -25],
+            [-17, 5]
+          ]
+        }
+      ],
+      "mountainBelts": [
+        {
+          "name": "Atlas and Alpine collision",
+          "startMa": 80,
+          "endMa": 0,
+          "points": [
+            [-8, 31],
+            [5, 35],
+            [16, 39]
+          ],
+          "intensity": 0.65
+        },
+        {
+          "name": "East African rift shoulder",
+          "startMa": 35,
+          "endMa": 0,
+          "points": [
+            [30, 12],
+            [35, 0],
+            [36, -15],
+            [30, -28]
+          ],
+          "intensity": 0.75
+        }
+      ]
+    },
+    {
+      "id": "eurasia",
+      "name": "Eurasia",
+      "color": "#ef8f8f",
+      "presentCentroid": [72, 49],
+      "trajectory": [
+        { "ageMa": 0, "lonOffset": 0, "latOffset": 0, "rotationDeg": 0 },
+        { "ageMa": 66, "lonOffset": -8, "latOffset": -4, "rotationDeg": -4 },
+        { "ageMa": 150, "lonOffset": -32, "latOffset": -17, "rotationDeg": -14 },
+        { "ageMa": 260, "lonOffset": -46, "latOffset": -24, "rotationDeg": -22 },
+        { "ageMa": 420, "lonOffset": -58, "latOffset": -27, "rotationDeg": -30 },
+        { "ageMa": 600, "lonOffset": -84, "latOffset": -34, "rotationDeg": -44 }
+      ],
+      "polygons": [
+        {
+          "name": "Eurasian plate",
+          "points": [
+            [-10, 36],
+            [30, 70],
+            [120, 70],
+            [151, 55],
+            [140, 30],
+            [101, 8],
+            [68, 22],
+            [40, 36]
+          ]
+        }
+      ],
+      "mountainBelts": [
+        {
+          "name": "Alps and Zagros",
+          "startMa": 80,
+          "endMa": 0,
+          "points": [
+            [6, 45],
+            [18, 44],
+            [35, 39],
+            [51, 31]
+          ],
+          "intensity": 0.8
+        }
+      ]
+    },
+    {
+      "id": "india",
+      "name": "India",
+      "color": "#f58bd2",
+      "presentCentroid": [79, 20],
+      "trajectory": [
+        { "ageMa": 0, "lonOffset": 0, "latOffset": 0, "rotationDeg": 0 },
+        { "ageMa": 50, "lonOffset": -7, "latOffset": -18, "rotationDeg": 6 },
+        { "ageMa": 100, "lonOffset": -19, "latOffset": -43, "rotationDeg": 15 },
+        { "ageMa": 150, "lonOffset": -35, "latOffset": -54, "rotationDeg": 22 },
+        { "ageMa": 260, "lonOffset": -54, "latOffset": -55, "rotationDeg": 30 },
+        { "ageMa": 420, "lonOffset": -64, "latOffset": -59, "rotationDeg": 38 },
+        { "ageMa": 600, "lonOffset": -75, "latOffset": -62, "rotationDeg": 45 }
+      ],
+      "polygons": [
+        {
+          "name": "Indian plate",
+          "points": [
+            [68, 24],
+            [88, 24],
+            [96, 10],
+            [82, 6],
+            [70, 12]
+          ]
+        }
+      ],
+      "mountainBelts": [
+        {
+          "name": "Himalayan uplift",
+          "startMa": 60,
+          "endMa": 0,
+          "points": [
+            [72, 33],
+            [82, 31],
+            [92, 29]
+          ],
+          "intensity": 1
+        }
+      ]
+    },
+    {
+      "id": "australia",
+      "name": "Australia",
+      "color": "#ffb86f",
+      "presentCentroid": [134, -25],
+      "trajectory": [
+        { "ageMa": 0, "lonOffset": 0, "latOffset": 0, "rotationDeg": 0 },
+        { "ageMa": 66, "lonOffset": -8, "latOffset": -22, "rotationDeg": 5 },
+        { "ageMa": 120, "lonOffset": -19, "latOffset": -29, "rotationDeg": 12 },
+        { "ageMa": 180, "lonOffset": -45, "latOffset": -27, "rotationDeg": 20 },
+        { "ageMa": 260, "lonOffset": -68, "latOffset": -16, "rotationDeg": 31 },
+        { "ageMa": 420, "lonOffset": -92, "latOffset": -25, "rotationDeg": 40 },
+        { "ageMa": 600, "lonOffset": -105, "latOffset": -35, "rotationDeg": 48 }
+      ],
+      "polygons": [
+        {
+          "name": "Australian plate",
+          "points": [
+            [113, -11],
+            [153, -12],
+            [154, -38],
+            [116, -44],
+            [110, -25]
+          ]
+        }
+      ],
+      "mountainBelts": [
+        {
+          "name": "Great Dividing highlands",
+          "startMa": 100,
+          "endMa": 20,
+          "points": [
+            [147, -17],
+            [151, -28],
+            [146, -38]
+          ],
+          "intensity": 0.45
+        }
+      ]
+    },
+    {
+      "id": "antarctica",
+      "name": "Antarctica",
+      "color": "#b8d7ff",
+      "presentCentroid": [20, -75],
+      "trajectory": [
+        { "ageMa": 0, "lonOffset": 0, "latOffset": 0, "rotationDeg": 0 },
+        { "ageMa": 66, "lonOffset": 5, "latOffset": 10, "rotationDeg": -5 },
+        { "ageMa": 120, "lonOffset": 18, "latOffset": 18, "rotationDeg": -11 },
+        { "ageMa": 180, "lonOffset": 34, "latOffset": 23, "rotationDeg": -17 },
+        { "ageMa": 260, "lonOffset": -12, "latOffset": 20, "rotationDeg": -24 },
+        { "ageMa": 420, "lonOffset": -34, "latOffset": 16, "rotationDeg": -28 },
+        { "ageMa": 600, "lonOffset": -60, "latOffset": 18, "rotationDeg": -35 }
+      ],
+      "polygons": [
+        {
+          "name": "Antarctic plate",
+          "points": [
+            [-160, -66],
+            [-100, -72],
+            [-30, -70],
+            [40, -68],
+            [110, -70],
+            [170, -66],
+            [150, -82],
+            [20, -84],
+            [-120, -82]
+          ]
+        }
+      ],
+      "mountainBelts": [
+        {
+          "name": "Transantarctic uplift",
+          "startMa": 65,
+          "endMa": 0,
+          "points": [
+            [160, -72],
+            [175, -78],
+            [-150, -82]
+          ],
+          "intensity": 0.55
+        }
+      ]
+    },
+    {
+      "id": "greenland",
+      "name": "Greenland",
+      "color": "#9de7ff",
+      "presentCentroid": [-42, 73],
+      "trajectory": [
+        { "ageMa": 0, "lonOffset": 0, "latOffset": 0, "rotationDeg": 0 },
+        { "ageMa": 66, "lonOffset": -10, "latOffset": -3, "rotationDeg": 6 },
+        { "ageMa": 150, "lonOffset": -18, "latOffset": -14, "rotationDeg": 12 },
+        { "ageMa": 260, "lonOffset": -8, "latOffset": -32, "rotationDeg": 20 },
+        { "ageMa": 420, "lonOffset": 9, "latOffset": -40, "rotationDeg": 32 },
+        { "ageMa": 600, "lonOffset": 24, "latOffset": -52, "rotationDeg": 41 }
+      ],
+      "polygons": [
+        {
+          "name": "Greenland",
+          "points": [
+            [-52, 60],
+            [-26, 62],
+            [-18, 78],
+            [-43, 84],
+            [-61, 75]
+          ]
+        }
+      ],
+      "mountainBelts": []
+    }
+  ],
+  "events": [
+    {
+      "ageMa": 600,
+      "title": "Late Neoproterozoic rearrangement",
+      "body": "Continental blocks are still reorganizing after older supercontinents. The v1 model emphasizes motion patterns rather than exact coastlines this deep in time.",
+      "camera": [-25, -25],
+      "tags": ["deep time", "pre-cambrian"]
+    },
+    {
+      "ageMa": 540,
+      "title": "Cambrian seas expand",
+      "body": "Shallow seas flood continental margins as animal life diversifies. The coastline signal is simplified, but the tectonic stage is set.",
+      "camera": [20, -10],
+      "tags": ["cambrian", "marine"]
+    },
+    {
+      "ageMa": 470,
+      "title": "Iapetus Ocean narrows",
+      "body": "Ocean basins between Laurentia, Baltica, and Avalonia begin closing, feeding future Appalachian and Caledonian mountain building.",
+      "camera": [-55, 25],
+      "tags": ["iapetus", "mountains"]
+    },
+    {
+      "ageMa": 360,
+      "title": "Pangaea is assembling",
+      "body": "Continents collide into a supercontinent. Mountain chains rise along sutures where oceans disappear.",
+      "camera": [-5, 5],
+      "tags": ["pangaea", "collision"]
+    },
+    {
+      "ageMa": 300,
+      "title": "Supercontinent Pangaea",
+      "body": "Most major landmasses are welded together. Interior climates become extreme while long mountain belts mark old collisions.",
+      "camera": [0, -10],
+      "tags": ["pangaea", "supercontinent"]
+    },
+    {
+      "ageMa": 252,
+      "title": "Permian-Triassic crisis",
+      "body": "Massive volcanism and climate stress coincide with Earth's largest known extinction. Tectonics shapes the world that recovers afterward.",
+      "camera": [55, 55],
+      "tags": ["extinction", "volcanism"]
+    },
+    {
+      "ageMa": 200,
+      "title": "Pangaea begins to split",
+      "body": "Rifting opens new ocean basins. The first recognizable outlines of the Atlantic story appear.",
+      "camera": [-25, 5],
+      "tags": ["rift", "atlantic"]
+    },
+    {
+      "ageMa": 150,
+      "title": "Atlantic opening accelerates",
+      "body": "North America, Africa, and Eurasia separate. Marine gateways and young ocean crust redraw the planet.",
+      "camera": [-35, 15],
+      "tags": ["atlantic", "jurassic"]
+    },
+    {
+      "ageMa": 100,
+      "title": "India races north",
+      "body": "India detaches from Gondwana and moves rapidly toward Asia, setting up one of the great mountain-building collisions.",
+      "camera": [75, -25],
+      "tags": ["india", "gondwana"]
+    },
+    {
+      "ageMa": 66,
+      "title": "End-Cretaceous transition",
+      "body": "Tectonic provinces are close to familiar positions. Volcanism, changing seas, and impact aftermath reset ecosystems.",
+      "camera": [80, 18],
+      "tags": ["cretaceous", "transition"]
+    },
+    {
+      "ageMa": 55,
+      "title": "Himalaya begins rising",
+      "body": "India collides with Eurasia. Crust thickens, the Himalaya and Tibetan Plateau rise, and monsoons eventually reorganize.",
+      "camera": [82, 30],
+      "tags": ["himalaya", "collision"]
+    },
+    {
+      "ageMa": 34,
+      "title": "Antarctica isolates",
+      "body": "Southern Ocean circulation strengthens as Antarctica becomes more isolated, encouraging long-term glaciation.",
+      "camera": [20, -72],
+      "tags": ["antarctica", "climate"]
+    },
+    {
+      "ageMa": 3,
+      "title": "Isthmus of Panama closes",
+      "body": "A narrow land bridge alters ocean circulation, climate, and biological exchange between the Americas.",
+      "camera": [-80, 9],
+      "tags": ["panama", "gateway"]
+    },
+    {
+      "ageMa": 0,
+      "title": "Present plate mosaic",
+      "body": "The modern map is a snapshot, not an endpoint. Plates keep moving, mountains keep eroding and rising, oceans keep opening and closing.",
+      "camera": [0, 10],
+      "tags": ["present", "plates"]
+    }
+  ]
+}

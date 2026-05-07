@@ -1,0 +1,53 @@
+{
+  "name": "plate-tectonics-deep-time-visualizer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A static WebGPU globe that animates 600M years of plate motion and narrates Earth's deep-time story.",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "prebuild": "node scripts/clean-pages-assets.mjs && node scripts/write-build-info.mjs && node scripts/build-wasm.mjs",
+    "build": "tsc -b && vite build && node scripts/copy-404.mjs",
+    "preview": "vite preview --host 0.0.0.0",
+    "pages-preview": "npx http-server docs -p 4173 -c-1",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "smoke": "bash scripts/smoke.sh",
+    "lint": "eslint . --max-warnings=0 && prettier --check .",
+    "fmt": "prettier --write .",
+    "typecheck": "tsc -b --pretty false",
+    "audit": "npm audit --audit-level=high"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.100.9",
+    "lucide-react": "^0.554.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "three": "^0.184.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@playwright/test": "^1.57.0",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@types/three": "^0.184.0",
+    "@vitejs/plugin-react": "^6.0.1",
+    "@webgpu/types": "^0.1.69",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "http-server": "^14.1.1",
+    "jsdom": "^27.2.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.48.0",
+    "vite": "^8.0.11",
+    "vitest": "^4.0.14",
+    "wabt": "^1.0.39"
+  }
+}

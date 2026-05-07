@@ -1,0 +1,8 @@
+title = "plate-tectonics-deep-time-visualizer gitleaks config"
+
+[allowlist]
+description = "Allow documented public donation and repository URLs"
+regexes = [
+  '''https://www\.paypal\.com/paypalme/florinbadita''',
+  '''https://github\.com/baditaflorin/plate-tectonics-deep-time-visualizer'''
+]

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Deep-time globe icon">
+  <rect width="128" height="128" rx="24" fill="#07111f"/>
+  <circle cx="64" cy="64" r="45" fill="#15586a"/>
+  <path d="M31 56c9-20 26-32 48-34 13 8 22 19 28 33-14-8-24-9-31-4-9 7-17 8-26 3-7-4-13-3-19 2Z" fill="#72d6d2"/>
+  <path d="M52 75c8-3 16-1 24 5 7 6 14 7 22 4-7 12-18 20-34 23-13-5-23-15-30-29 6 2 12 1 18-3Z" fill="#f3c567"/>
+  <path d="M27 66c20 10 43 13 74 6" fill="none" stroke="#fff7ad" stroke-width="5" stroke-linecap="round"/>
+  <path d="M64 20v88M22 64h84" fill="none" stroke="#dbeafe" stroke-opacity=".36" stroke-width="3"/>
+</svg>
