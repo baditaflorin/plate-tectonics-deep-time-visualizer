@@ -15,9 +15,13 @@ function git(args, fallback) {
   }
 }
 
-const commit = git(['rev-parse', '--short', 'HEAD'], 'dev');
+const sourceRef = process.env.BUILD_SOURCE_REF || 'HEAD';
+const commit = git(
+  ['rev-parse', '--short', sourceRef],
+  git(['rev-parse', '--short', 'HEAD'], 'dev'),
+);
 const branch = git(['branch', '--show-current'], 'main');
-const builtAt = new Date().toISOString();
+const builtAt = git(['show', '-s', '--format=%cI', sourceRef], new Date().toISOString());
 
 const output = `export const buildInfo = ${JSON.stringify(
   {
